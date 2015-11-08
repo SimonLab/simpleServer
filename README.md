@@ -1,5 +1,5 @@
 # simpleServer
-
+[![devDependency Status](https://david-dm.org/SimonLab/simpleServer/dev-status.svg)](https://david-dm.org/SimonLab/simpleServer#info=devDependencies)
 ## What?
 
 A simple web server.
