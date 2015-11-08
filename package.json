@@ -4,7 +4,7 @@
   "description": "A simple web server",
   "main": "lib/start.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/lab/bin/lab ./test/*.test.js -m 0 -c -a code -r lcov -o lcov.info -r console -o stdout",
     "start": "node lib/start.js"
   },
   "repository": {
@@ -24,5 +24,9 @@
   "dependencies": {
     "hapi": "^11.1.0",
     "hoek": "^3.0.1"
+  },
+  "devDependencies": {
+    "code": "^2.0.1",
+    "lab": "^7.2.0"
   }
 }
