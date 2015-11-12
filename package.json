@@ -23,6 +23,7 @@
   "homepage": "https://github.com/SimonLab/simpleServer#readme",
   "dependencies": {
     "hapi": "^11.1.0",
-    "hoek": "^3.0.1"
+    "hoek": "^3.0.1",
+    "keyword-highlighter": "^1.0.3"
   }
 }
