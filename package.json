@@ -29,6 +29,7 @@
     "keyword-highlighter": "^1.0.3",
     "redis-connection": "^4.0.1",
     "request": "^2.69.0",
+    "tape": "^4.4.0",
     "vision": "^4.0.1"
   },
   "devDependencies": {

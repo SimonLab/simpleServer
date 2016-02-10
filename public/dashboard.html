@@ -44,8 +44,8 @@
                                 {{monthly}}</td>
                         </tr>
                     </table>
-                    
-              
+
+
                 </div>
                 <div class="col-md-6">
                     <table  class="table table-striped table-bordered">
@@ -61,7 +61,7 @@
                         </tr>
                         <tr>
                             <td>24 hour</td>
-                            <td>{{24hr}}</td>
+                            <td>{{twentyfourhour}}</td>
                         </tr>
                         <tr>
                             <td>Weekly</td>
@@ -72,14 +72,14 @@
                             <td>{{monthly}}</td>
                         </tr>
                     </table>
-                    
-                
+
+
                 </div>
 
             </div>
             <div class="row">
                     <div class="container">
-                        <a href="/24hour" ><button id="24hr"> 24-hour </button></a>
+                        <a href="/twentyfourhour" ><button id="24hr"> 24-hour </button></a>
                         <a href="/weekly"><button id="Weekly">Weekly</button></a>
                         <a href="/monthly"> <button id"Monthly">Monthly</button></a>
                     </div>
@@ -88,14 +88,14 @@
             <div class="container">
                     <div class="col-md-6">
                             <div class="chart">
-      
+
                               <canvas id="canvas"> </canvas>
 
                             </div>
                     </div>
                     <div class="col-md-6">
                             <div class="chart">
-                
+
                               <canvas id="canvasVib"> </canvas>
 
                             </div>
@@ -105,11 +105,16 @@
         </div>
         <br>
 
-          
+
 
         <h4 id="accel">your device is right where you left it</h4>
     </section>
 </body>
+<script>
+
+console.log({{this.twentyfourhourchart}});
+
+</script>
 <script type="text/javascript" src="./chart.js"></script>
 
 </html>
