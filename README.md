@@ -1,5 +1,4 @@
-# T.H.U.D.
-Total Hearing Unintrusive Device
+#Total Hearing Unintrusive Device
 <br />
 <a href='http://i.imgur.com/VUqqqaC' title=''><img src='http://i.imgur.com/VUqqqaC.jpg' alt='' title='Hosted by imgur.com' /></a>
 <br />
