@@ -1,7 +1,7 @@
 
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
 }
 
@@ -11,10 +11,20 @@
   padding-top: 140px;
 }
 
+
 body { font-size: 140%; }
     div.DTTT { margin-bottom: 0.5em; float: right; }
     div.dataTables_wrapper { clear: both; }
 
 .cursor-change {
   cursor: pointer;
+}
+
+#accel {
+	margin : 5em 20em;
+	border-radius:10px;
+	border:solid 1px black;
+	padding: 1em;
+	color:green;
+
 }
