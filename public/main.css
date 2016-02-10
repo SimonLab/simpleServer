@@ -1,7 +1,7 @@
 
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
 }
 
@@ -9,4 +9,13 @@
   text-align: center;
   font-size: 14px;
   padding-top: 140px;
+}
+
+#accel {
+	margin : 5em 20em;
+	border-radius:10px;
+	border:solid 1px black;
+	padding: 1em;
+	color:green;
+
 }
