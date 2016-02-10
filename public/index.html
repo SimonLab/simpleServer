@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Thud</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+  crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+  <link src="http://www.datatables.net/release-datatables/extensions/Plugins/integration/bootstrap/3/dataTables.bootstrap.css" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
+  crossorigin="anonymous">
+
+  <script src="http://www.datatables.net/release-datatables/media/js/jquery.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+
+  <script src="http://www.datatables.net/release-datatables/media/js/jquery.dataTables.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+
+  <script src="http://www.datatables.net/release-datatables/extensions/TableTools/js/dataTables.tableTools.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
+  crossorigin="anonymous"></script>
+
+  <script src="http://www.datatables.net/release-datatables/extensions/Plugins/integration/bootstrap/3/dataTables.bootstrap.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
+  crossorigin="anonymous"></script>
+
+  <link src="../assets/main.css" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
+  crossorigin="anonymous">
+
+</head>
+
+<body>
+  <section class="text-center">
+    <h1 class="text-center">Thud </h1>
+    <div>
+      <h2>Locations</h2>
+    </div>
+
+    <div id="propertyList">
+
+      <table id="example" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+            <th>Case ID</th>
+            <th>Name</th>
+            <th>Type of Location</th>
+            <th>Address</th>
+            <th>Postcode</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr style="cursor: pointer;" onclick="window.document.location='/dashboard/twentyfourhour';">
+              <td>AB68821</td>
+              <td>Anchor and Hope</td>
+              <td>Public House</td>
+              <td>18 Storeys Way</td>
+              <td>E59BW</td>
+            </tr>
+            <tr>
+              <td>CR56320</td>
+              <td>Three Compasses</td>
+              <td>Public House</td>
+              <td>122 Dalston Way</td>
+              <td>E277G</td>
+            </tr>
+            <tr>
+              <td>XS22317</td>
+              <td>Farringdon</td>
+              <td>Crossrail</td>
+              <td>Farringdon Road</td>
+              <td>EC15LX</td>
+            </tr>
+            <tr>
+              <td>HJ33366</td>
+              <td>Whitechapel</td>
+              <td>Crossrail</td>
+              <td>Whitechapel Road</td>
+              <td>E24AA</td>
+            </tr>
+            <tr>
+              <td>LL43211</td>
+              <td>Custom House</td>
+              <td>Crossrail</td>
+              <td>Mudchute Road</td>
+              <td>E135TD</td>
+            </tr>
+            <tr>
+              <td>UY99211</td>
+              <td>Woolwich</td>
+              <td>Crossrail</td>
+              <td>Harvey Street</td>
+              <td>E119TE</td>
+            </tr>
+            <tr>
+              <td>ZZ6322</td>
+              <td>Leadenhall Arcade</td>
+              <td>Construction</td>
+              <td>Leadenhall Street</td>
+              <td>EC378A</td>
+            </tr>
+            <tr>
+              <td>RW6325</td>
+              <td>Salvation Army</td>
+              <td>Construction</td>
+              <td>Cheapside</td>
+              <td>EC617Y</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+</body>
+
+
+</html>
