@@ -1,7 +1,8 @@
 # T.H.U.D.
 Total Hearing Unintrusive Device
 <br />
-<a href='http://i.imgur.com/VUqqqaC' title=''><img src='http://i.imgur.com/VUqqqaC.jpg' alt='' title='Hosted by imgur.com' /></a>[!<br />
+<a href='http://i.imgur.com/VUqqqaC' title=''><img src='http://i.imgur.com/VUqqqaC.jpg' alt='' title='Hosted by imgur.com' /></a>
+<br />
 ## What is THUD?
 THUD is a mobile device that records sound and vibration levels at construction sites. The device receives data from the various sensors (i.e. Sound, accelerometer, piezo vibration) and the application manages the operation of those sensors, collects analytics, and reports the data in the cloud. 
 
