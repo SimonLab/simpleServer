@@ -28,9 +28,9 @@
 
 <body>
   <section class="text-center">
-    <h1 class="text-center">Hello {{user}} </h1>
+    <h1 class="text-center">Thud </h1>
     <div>
-      <h2>Properties</h2>
+      <h2>Locations</h2>
     </div>
 
     <div id="propertyList">
@@ -38,21 +38,70 @@
       <table id="example" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">
         <thead>
           <tr>
-            <th>ID</th>
+            <th>Case ID</th>
             <th>Name</th>
             <th>Type of Location</th>
-            <th>Date</th>
             <th>Address</th>
+            <th>Postcode</th>
           </tr>
         </thead>
 
         <tbody>
             <tr style="cursor: pointer;" onclick="window.document.location='/dashboard/twentyfourhour';">
-              <td>{{this.id}}</td>
-              <td>{{this.companyid}}</td>
-              <td>{{this.date}}</td>
-              <td>{{this.companyName}}</td>
-              <td>{{this.companyName}}</td>
+              <td>AB68821</td>
+              <td>Anchor and Hope</td>
+              <td>Public House</td>
+              <td>18 Storeys Way</td>
+              <td>E59BW</td>
+            </tr>
+            <tr>
+              <td>CR56320</td>
+              <td>Three Compasses</td>
+              <td>Public House</td>
+              <td>122 Dalston Way</td>
+              <td>E277G</td>
+            </tr>
+            <tr>
+              <td>XS22317</td>
+              <td>Farringdon</td>
+              <td>Crossrail</td>
+              <td>Farringdon Road</td>
+              <td>EC15LX</td>
+            </tr>
+            <tr>
+              <td>HJ33366</td>
+              <td>Whitechapel</td>
+              <td>Crossrail</td>
+              <td>Whitechapel Road</td>
+              <td>E24AA</td>
+            </tr>
+            <tr>
+              <td>LL43211</td>
+              <td>Custom House</td>
+              <td>Crossrail</td>
+              <td>Mudchute Road</td>
+              <td>E135TD</td>
+            </tr>
+            <tr>
+              <td>UY99211</td>
+              <td>Woolwich</td>
+              <td>Crossrail</td>
+              <td>Harvey Street</td>
+              <td>E119TE</td>
+            </tr>
+            <tr>
+              <td>ZZ6322</td>
+              <td>Leadenhall Arcade</td>
+              <td>Construction</td>
+              <td>Leadenhall Street</td>
+              <td>EC378A</td>
+            </tr>
+            <tr>
+              <td>RW6325</td>
+              <td>Salvation Army</td>
+              <td>Construction</td>
+              <td>Cheapside</td>
+              <td>EC617Y</td>
             </tr>
         </tbody>
       </table>
@@ -61,13 +110,6 @@
 
 
 </body>
-<script>
-  $(document).ready(function() {
-    var table = $('#example').DataTable();
-    var tt = new $.fn.dataTable.TableTools(table);
 
-    $(tt.fnContainer()).insertBefore('div.dataTables_wrapper');
-  });
-</script>
 
 </html>
