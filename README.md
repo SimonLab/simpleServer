@@ -1,5 +1,6 @@
-# simpleServer
-[![devDependency Status](https://david-dm.org/SimonLab/simpleServer/dev-status.svg)](https://david-dm.org/SimonLab/simpleServer#info=devDependencies)
+# T.H.U.D.
+Total Hearing Unintrusive Device
+<a href='http://i.imgur.com/VUqqqaC' title=''><img src='http://i.imgur.com/VUqqqaC.jpg' alt='' title='Hosted by imgur.com' /></a>[![devDependency Status](https://david-dm.org/SimonLab/simpleServer/dev-status.svg)](https://david-dm.org/SimonLab/simpleServer#info=devDependencies)
 ## What?
 
 A simple web server.
