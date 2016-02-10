@@ -24,6 +24,7 @@
   "dependencies": {
     "hapi": "^11.1.0",
     "hoek": "^3.0.1",
+    "inert": "^3.2.0",
     "keyword-highlighter": "^1.0.3",
     "redis-connection": "^4.0.1"
   },
