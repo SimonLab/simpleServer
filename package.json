@@ -22,13 +22,8 @@
   },
   "homepage": "https://github.com/SimonLab/simpleServer#readme",
   "dependencies": {
-    "hapi": "^11.1.0",
-    "hoek": "^3.0.1",
-    "keyword-highlighter": "^1.0.3",
-    "redis-connection": "^4.0.1"
-  },
-  "devDependencies": {
-    "code": "^2.0.1",
-    "lab": "^7.2.0"
+    "env2": "^2.1.0",
+    "hapi": "^13.0.0",
+    "hoek": "^3.0.4"
   }
 }
